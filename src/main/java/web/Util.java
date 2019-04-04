@@ -28,6 +28,7 @@ public class Util {
         for (WebElement webElement : getList()) {
             System.out.println(webElement.getAttribute("href"));
         }
+
     }
 
     //return String result of search result
